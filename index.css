@@ -524,3 +524,176 @@ footer {
 }
 
 
+/* ===== MOBILE (up to 600px) ===== */
+@media only screen and (max-width: 600px) {
+
+    body {
+        padding: 0 10px;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .Nav-bar {
+        margin-left: 0;
+        gap: 10px;
+        font-size: 16px;
+        flex-wrap: wrap;
+    }
+
+    #toggle-theme {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .first {
+        flex-direction: column;
+        margin-left: 0;
+        padding-top: 10px;
+    }
+
+    .pictures {
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .pic, .pic1 {
+        margin: 10px 0;
+        width: 100% !important;
+    }
+
+    .para1, .text1 {
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .second-sec-main, .third-sec-main, .fourth-section .inner-div {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .second-sec-left, .second-sec-right,
+    .third-sec-left, .third-sec-middle, .third-sec-right,
+    .fourth-sec-left, .fourth-sec-right {
+        width: 100%;
+    }
+
+    .sec-sec-div {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .sec-sec-1st, .sec-sec-2nd {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .img, .sec-sec-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .fifth-section {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .fifth-image1, .fifth-image2, .fifth-image3, 
+    .fifth-image4, .fifth-image5, .fifth-image6 {
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+}
+
+/* ===== TABLET (601px to 1024px) ===== */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+    .header {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .Nav-bar {
+        font-size: 18px;
+        gap: 15px;
+    }
+
+    .first {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pictures {
+        margin-left: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .pic, .pic1 {
+        width: 45%;
+        margin: 5px;
+    }
+
+    .para1, .text1 {
+        width: 90%;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .second-sec-main, .third-sec-main, .fourth-section .inner-div {
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+    }
+
+    .second-sec-left, .second-sec-right,
+    .third-sec-left, .third-sec-middle, .third-sec-right,
+    .fourth-sec-left, .fourth-sec-right {
+        width: 100%;
+    }
+
+    .sec-sec-div {
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .sec-sec-1st, .sec-sec-2nd {
+        width: 48%;
+        margin-bottom: 10px;
+    }
+
+    .fifth-section {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .fifth-image1, .fifth-image2, .fifth-image3,
+    .fifth-image4, .fifth-image5, .fifth-image6 {
+        width: 48%;
+        height: auto;
+        margin: 5px 0;
+    }
+
+    footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 20px;
+        gap: 20px;
+    }
+}
